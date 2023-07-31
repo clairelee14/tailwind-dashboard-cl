@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Campground Dashboard</title>
+      <link href="/dist/output.css" rel="stylesheet">
+      <link rel="stylesheet" href="../css/styles.css">
+   </head>
+   <body>
+      <header class="bg-lime-900">
+         <div class="p-4 md:flex md:justify-between items-center">
+            <a href="#" class="text-3xl text-amber-300 uppercase hover:text-lime-300 pb-2">
+               <h1>Campground</h1>
+            </a>
+            <div class="svg-animation-container">
+               <svg width="468" height="653" viewBox="0 0 468 653" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g id="fire">
+                  <path id="campfire" d="M286.445 653C284.158 650.192 278.393 648.815 280.86 645.108C282.934 641.991 287.151 642.049 291.122 642.235C306.852 642.974 322.792 643.501 338.327 643.355C355.386 643.194 372.493 642.434 389.672 642.455C396.93 642.465 397.125 645.941 399.052 647.899C405.423 650.207 409.596 633.615 416.17 649.046C418.701 643.606 421.998 639.844 429.312 642.836C430.057 645.639 430.844 648.604 431.676 652.284C383.698 653 335.672 653 286.445 653V653ZM52.5898 653C50.4055 648.839 50.4003 644.83 53.6203 640.99C63.6941 646.022 72.9609 651.353 84.2759 643.767C87.9636 641.296 95.3724 642.432 97.6262 643.223C113.061 648.648 127.976 646.675 143.241 643.782C149.537 642.589 154.892 646.238 161.255 646.585C170.003 647.062 177.157 646.485 184.088 640.308C178.789 648.004 199.476 643.135 190.616 652.569C144.7 653 99.2477 653 52.5898 653V653ZM201.64 653C202.892 649.171 205.96 646.106 211.961 646.127C222.934 646.165 233.907 646.144 244.878 646.05C249.614 646.008 253.155 647.163 254.381 652.132C237.214 653 220.03 653 201.64 653V653ZM147.689 405.848C152.803 385.698 165.179 369.594 179.437 354.111C193.263 339.101 208.98 325.05 217.684 307.259C219.421 303.707 220.86 300.049 222.225 296.388C223.512 292.932 221.934 287.78 228.117 287.084C233.473 286.481 235.796 290.967 238.664 293.829C256.92 312.049 272.072 331.739 281.2 354.237C281.996 356.197 283.186 358.093 284.533 359.846C285.116 360.608 286.558 360.934 287.262 361.286C293.473 361.344 293.137 355.107 298.235 354.53C326.85 374.691 330.088 434.893 302.565 473.581C329.464 464.457 353.983 458.274 362.072 488.691C366.577 505.626 363.337 510.589 335.246 523.565C337.022 526.362 340.712 526.603 343.693 527.724C362.98 534.989 366.678 541.031 359.333 557.518C348.218 582.474 334.467 587.454 306.808 579.968C285.656 574.243 264.825 567.975 244.7 560.232C236.292 556.999 228.711 557.03 220.197 560.137C197.171 568.538 173.878 576.413 149.953 583.05C138.101 586.339 129.317 584.004 121.67 576.265C115.929 570.452 111.845 564.067 108.985 557.062C103.033 542.493 106.371 535.853 123.006 529.164C125.609 528.118 128.135 526.942 131.743 525.37C122.677 517.738 106.181 517.324 104.799 504.461C103.714 494.378 107.052 485.065 112.213 476.19C116.594 468.656 123.941 463.712 134.75 465.626C143.392 467.158 151.659 470.099 163.961 473.474C148.427 451.045 141.534 429.731 147.689 405.848M206.556 382.829C194.057 396.435 185.697 411.514 181.955 428.275C174.436 461.975 198.227 481.91 230.433 492.003C232.309 492.589 234.799 492.853 236.644 492.367C277.787 481.55 305.361 454.092 283.962 414.941C278.136 416.251 277.733 423.645 268.757 423.055C261.823 400.434 243.598 381.735 232.913 359.252C221.554 365.857 215.325 374.283 206.556 382.829M127.467 474.84C121.957 478.902 125.971 480.582 130.23 482.26C133.455 483.534 138.163 483.883 136.436 488.79C131.671 491.363 126.742 487.346 120.958 488.202C133.074 494.242 147.296 495.238 159.235 504.182C149.272 506.766 143.392 503.312 137.16 501.881C130.875 500.437 125.301 496.552 117.686 497.604C125.35 508.195 274.415 557.564 314.728 562.914C301.37 556.702 287.468 553.955 277.728 545.464C281.647 542.092 284.993 543.402 288.028 544.383C296.38 547.084 304.603 550.044 312.917 552.819C316.694 554.078 321.412 556.928 323.838 552.097C326.287 547.222 319.932 546.889 316.602 545.255C312.837 543.408 307.271 543.462 306.155 538.481C312.631 535.698 317.727 539.539 323.216 540.546C329.51 541.696 334.837 541.916 337.597 535.943C332.303 531.654 325.869 530.43 320.004 528.649C272.724 514.302 225.478 499.868 177.908 486.183C161.934 481.586 146.355 475.483 127.467 474.84M341.606 476.278C340.255 473.052 336.857 473.28 334.169 474.068C315.733 479.477 296.367 482.843 278.314 490.463C290.801 498.935 274.886 500.046 272.557 504.816C282.482 509.279 292.224 512.507 302.624 509.963C316.928 506.463 330.898 502.033 344.898 497.751C352.376 495.462 352.248 491.026 349.087 485.576C334.922 485.333 323.723 495.405 307.61 493.395C316.484 482.666 331.684 484.076 341.606 476.28M150.169 530.417C147.265 530.879 144.199 531.005 141.498 531.884C137.053 533.331 130.379 534.003 133.827 540.144C136.379 544.686 139.674 548.933 147.445 546.688C150.251 545.879 153.176 545.337 155.964 544.492C162.625 542.483 168.325 542.106 168.962 550.241C175.487 547.375 182.361 547.103 185.841 541.353C174.842 536.164 163.365 533.622 150.172 530.417M332.314 560.37C330.908 564.119 327.747 567.902 332.219 571.747C345.721 564.722 352.207 553.269 348.982 542.32C340.033 545.626 336.333 552.174 332.314 560.37ZM123.103 559.964C126.205 564.784 129.066 569.789 136.271 572.053C138.98 558.759 131.008 546.527 117.794 543.65C117.28 549.147 119.639 553.89 123.103 559.964ZM12.9193 370.609C38.6074 354.279 63.5296 338.375 88.5495 322.575C94.1081 319.064 97.2638 315.886 93.2266 309.565C88.6369 302.374 90.5463 295.365 98.8571 290.032C105.238 285.937 111.681 281.878 117.725 277.47C129.361 268.982 141.128 266.151 154.021 275.725C157.74 278.487 161.661 277.916 165.799 275.917C168.919 274.411 172.162 271.978 177.849 275.367C166.541 282.918 168.286 292.174 172.681 301.964C174.158 305.259 172.316 309.023 168.949 311.511C157.855 319.706 146.36 327.504 133.267 333.574C126.218 336.842 119.344 335.383 114.43 331.209C107.458 325.295 102.501 327.527 96.0946 331.67C68.9699 349.219 41.5678 366.487 14.2171 383.804C10.5756 386.108 6.57951 389.397 2.07203 385.125C-3.09848 380.229 2.60655 377.787 6.17348 374.988C6.78767 374.506 7.48409 374.092 8.15225 373.659C9.73635 372.637 11.3254 371.619 12.9193 370.607M131.468 314.296C142.344 313.408 157.786 304.724 158.215 298.311C158.852 288.73 150.485 281.322 141.627 279.261C126.953 275.842 120.505 288.701 109.324 293.706C116.936 300.953 123.499 307.207 131.468 314.294V314.296ZM452.749 382.936C425.277 365.629 398.436 348.895 371.897 331.843C365.593 327.795 360.479 326.933 353.939 331.377C345.906 336.831 337.487 336.12 329.361 330.96C322.613 326.675 315.535 322.729 308.931 318.304C293.057 307.665 292.918 307.324 299.517 290.992C300.741 287.965 300.838 285.895 298.048 283.508C295.213 281.087 291.345 279.006 291.512 275.005C292.178 274.499 293.062 273.562 293.322 273.666C305.048 278.346 315.294 276.742 325.635 270.277C330.101 267.486 336.374 269.157 341.149 272.237C350.534 278.292 359.893 284.374 369.391 290.308C377.741 295.524 380.382 302.14 375.109 309.529C370.396 316.135 373.927 319.258 380.115 323.117C407.304 340.055 434.205 357.304 461.129 374.525C464.979 376.988 470.83 379.379 466.431 384.493C461.792 389.887 457.606 385.512 452.749 382.936M322.291 309.973C327.233 311.856 331.347 318.422 337.662 313.482C345.176 307.602 351.451 300.677 358.189 294.279C337.083 275.938 330.409 274.233 318.848 283.883C305.952 294.649 306.256 298.522 322.291 309.973V309.973ZM247.604 242.245C252.361 238.671 256.547 238.276 260.459 241.818C263.1 244.211 262.928 246.818 260.628 249.377C258.374 251.882 255.273 252.986 251.708 252.034C246.06 250.532 245.207 247.088 247.604 242.245ZM190.256 197.067C194.481 191.313 199.011 190.802 203.516 195.613C206.361 198.65 205.187 201.912 201.26 203.438C194.632 206.005 190.878 203.557 190.256 197.067ZM251.009 157C256.868 160.574 257.041 164.206 251.626 167.03C248.362 168.731 244.713 167.219 243.557 164.348C241.781 159.927 244.179 157.18 251.009 157V157Z" fill="black"/>
+                  <g id="embers">
+                  <g id="embers_2">
+                  <path id="Vector" d="M245.335 239.374C240.234 240.038 237.156 237.944 236.215 233.368C235.413 229.475 237.176 226.5 240.892 225.025C244.475 223.603 247.465 224.868 249.617 227.865C252.41 231.755 250.845 236.115 245.335 239.375V239.374ZM218.06 213.376C223.68 214.568 226.079 217.637 225.092 221.888C224.181 225.816 220.126 228.198 216.287 227.06C212.462 225.926 209.96 221.54 211.873 217.995C212.953 215.994 215.693 214.889 218.061 213.375L218.06 213.376ZM214.277 198.856C212.977 194.01 214.729 190.911 219.067 189.673C222.671 188.645 225.766 189.937 227.21 193.576C228.695 197.319 227.677 200.669 224.017 202.457C219.995 204.422 216.594 203.265 214.277 198.857V198.856Z" fill="#FFC320"/>
+                  <path id="Vector_2" d="M258.784 217.975C255.235 219.459 252.204 218.935 251.03 215.614C250.403 213.84 250.955 210.904 252.134 209.404C254.11 206.889 257.266 206.869 259.594 209.191C262.428 212.018 262.22 215.082 258.784 217.975V217.975ZM219.786 165.344C220.212 167.872 221.044 170.39 220.334 172.349C219.876 173.613 217.024 174.895 215.486 174.649C213.731 174.369 211.414 172.683 210.876 171.089C210.334 169.486 211.125 166.127 212.32 165.535C214.31 164.55 217.09 165.159 219.786 165.344Z" fill="#FFC62B"/>
+                  <path id="Vector_3" d="M224.71 128.629C220.866 128.595 218.725 126.687 219.618 123.392C220.051 121.797 222.862 119.659 224.318 119.854C225.89 120.064 227.827 122.542 228.266 124.356C228.528 125.44 226.223 127.146 224.71 128.629ZM252.372 137.275C255.968 137.148 258.149 138.797 257.65 141.936C257.394 143.546 255.222 145.854 253.746 145.989C252.251 146.126 249.363 144.094 249.228 142.79C249.052 141.09 250.985 139.171 252.372 137.275ZM240.148 166.88C241.942 166.159 243.704 165.229 245.214 165.536C245.925 165.68 246.714 168.333 246.414 169.602C246.195 170.534 243.504 171.887 243.229 171.632C241.911 170.412 241.042 168.709 240.149 166.879L240.148 166.88Z" fill="#FFC72F"/>
+                  </g>
+                  </g>
+                  </g>
+                  </svg>
+                  
+            </div>
+            <nav class="">
+               <ul class="md:flex">
+                  <li class="leading-10 border-t-2 border-amber-300 text-amber-200 md:border-t-0 md:hover:shadow-lime-200 md:hover:shadow-lg">
+                     <a class="block py-2 px-4 tracking-wider rounded hover:ring-2 hover:ring-lime-300 hover:bg-amber-500 hover:text-lime-900" href="#">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+                        </svg>
+                        Notifications
+                     </a>
+                  </li>
+                  <li class="leading-10 border-t-2 border-amber-300 text-amber-200 md:border-t-0 md:hover:shadow-lime-200 md:hover:shadow-lg">
+                     <a class="block py-2 px-4 tracking-wider rounded hover:ring-2 hover:ring-lime-300 hover:bg-amber-500 hover:text-lime-900" href="#">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"></path>
+                        </svg>
+                        Messages
+                     </a>
+                  </li>
+                  <li class="leading-10 border-t-2 border-amber-300 text-amber-200 md:border-t-0 md:hover:shadow-lime-200 md:hover:shadow-lg">
+                     <a class="block py-2 px-4 tracking-wider rounded hover:ring-2 hover:ring-lime-300 hover:bg-amber-500 hover:text-lime-900" href="#">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z"></path>
+                        </svg>
+                        My Projects
+                     </a>
+                  </li>
+                  <li class="leading-10 border-t-2 border-amber-300 text-amber-200 md:border-t-0 md:hover:shadow-lime-200 md:hover:shadow-lg">
+                     <a class="block py-2 px-4 tracking-wider rounded hover:ring-2 hover:ring-lime-300 hover:bg-amber-500 hover:text-lime-900" href="#">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                        Teams
+                     </a>
+                  </li>
+                  <li class="leading-10 border-t-2 border-amber-300 text-amber-200 md:border-t-0 md:hover:shadow-lime-200 md:hover:shadow-lg">
+                     <a class="block py-2 px-4 tracking-wider rounded hover:ring-2 hover:ring-lime-300 hover:bg-amber-500 hover:text-lime-900" href="#">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path>
+                        </svg>
+                        Logout
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <h2 class="text-amber-500 text-center mt-5">Welcome to Camp C.Lee</h2>
+      <div class="m-auto mt-2 w-60 h-60 rounded-full bg-lime-900"></div>
+      <a href="#" class="text-center underline">
+         <p>edit profile</p>
+      </a>
+      <!-- button area -->
+      <div class="text-center md:flex justify-center mt-10">
+         <div class="mt-8"><a class="mx-auto bg-amber-500 p-3 rounded-3xl mr-2 hover:ring-4 hover:ring-lime-900" href="#">Make A new project</a></div>
+         <div class="mt-8 "><a class="mx-auto bg-amber-500 p-3 rounded-3xl mr-2 hover:ring-4 hover:ring-lime-900" href="#">Start new chat</a></div>
+         <div class="mt-8 "><a class="mx-auto bg-amber-500 p-3 rounded-3xl hover:ring-4 hover:ring-lime-900" href="#">Add new to-do's</a></div>
+      </div>
+      <div class="2xl:container mx-auto px-5 py-10 2xl:px-0 ">
+         <h3 class="text-center">your top projects</h3>
+         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-2 border-t-2 border-slate-500 pt-10">
+            <section class="rounded border-2 border-lime-900 p-4 shadow-lg shadow-amber-600/30">
+               <header class="border-b-2 border-slate-400 pb-2 mb-4">
+                  <div class="flex items-center mb-4">
+                     <div class="mr-2 w-12 h-12 rounded-full bg-lime-800"></div>
+                     <h2 class="text-2xl">Marketing Project Alpha</h2>
+                  </div>
+                  <ul class="md:flex gap-x-3">
+                     <li>
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="flex md:flex-none">
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                           </svg>
+                        </a>
+                        12
+                     </li>
+                     <li class="flex md:flex-none">
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                           </svg>
+                        </a>
+                        0
+                     </li>
+                     <li class="flex sm:text-sm">
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                           </svg>
+                        </a>
+                        Due: August 10, 2023
+                     </li>
+                  </ul>
+               </header>
+               <div>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis inventore praesentium ratione fuga eos aliquid repudiandae cupiditate vero id dolores, odit libero qui itaque ut et deserunt quaerat quibusdam saepe.</p>
+               </div>
+               <div class="flex mt-2">
+                  <a href="#">
+                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                     </svg>
+                  </a>
+                  <p class="ml-2">29 comments</p>
+               </div>
+               <div class="h-1.5 rounded bg-slate-200 mt-5">
+                  <div class="h-1.5 rounded bg-lime-700 w-8/12"></div>
+               </div>
+            </section>
+            <section class="rounded border-2 border-lime-900 p-4 shadow-lg shadow-amber-600/30">
+               <header class="border-b-2 border-slate-400 pb-2 mb-4">
+                  <div class="flex items-center mb-4">
+                     <div class="mr-2 w-12 h-12 rounded-full bg-lime-800"></div>
+                     <h2 class="text-2xl">HR: Web Design Team Building</h2>
+                  </div>
+                  <ul class="md:flex gap-x-3">
+                     <li>
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="flex md:flex-none">
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                           </svg>
+                        </a>
+                        9
+                     </li>
+                     <li class="flex md:flex-none">
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                           </svg>
+                        </a>
+                        1
+                     </li>
+                     <li class="flex sm:text-sm">
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                           </svg>
+                        </a>
+                        Due: September 30, 2023
+                     </li>
+                  </ul>
+               </header>
+               <div>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis inventore praesentium ratione fuga eos aliquid repudiandae cupiditate vero id dolores, odit libero qui itaque ut et deserunt quaerat quibusdam saepe.</p>
+               </div>
+               <div class="flex mt-2">
+                  <a href="#">
+                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                     </svg>
+                  </a>
+                  <p class="ml-2">10 comments</p>
+               </div>
+               <div class="h-1.5 rounded bg-slate-200 mt-5">
+                  <div class="h-1.5 rounded bg-lime-700 w-4/12"></div>
+               </div>
+            </section>
+            <section class="rounded border-2 border-lime-900 p-4 shadow-lg shadow-amber-600/30">
+               <header class="border-b-2 border-slate-400 pb-2 mb-4">
+                  <div class="flex items-center mb-4">
+                     <div class="mr-2 w-12 h-12 rounded-full bg-lime-800"></div>
+                     <h2 class="text-2xl">MediaShaker Web Design</h2>
+                  </div>
+                  <ul class="md:flex gap-x-3">
+                     <li>
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="flex sm:flex-none">
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                           </svg>
+                        </a>
+                        16
+                     </li>
+                     <li class="flex sm:flex-none">
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                           </svg>
+                        </a>
+                        11
+                     </li>
+                     <li class="flex sm:text-sm">
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                           </svg>
+                        </a>
+                        Due: May 28, 2023
+                     </li>
+                  </ul>
+               </header>
+               <div>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis inventore praesentium ratione fuga eos aliquid repudiandae cupiditate vero id dolores, odit libero qui itaque ut et deserunt quaerat quibusdam saepe.</p>
+               </div>
+               <div class="flex mt-2">
+                  <a href="#">
+                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                     </svg>
+                  </a>
+                  <p class="ml-2">45 comments</p>
+               </div>
+               <div class="h-1.5 rounded bg-slate-200 mt-5">
+                  <div class="h-1.5 rounded bg-lime-700 w-9/12"></div>
+               </div>
+            </section>
+            <section class="rounded border-2 border-lime-900 p-4 shadow-lg shadow-amber-600/30">
+               <header class="border-b-2 border-slate-400 pb-2 mb-4">
+                  <div class="flex items-center mb-4">
+                     <div class="mr-2 w-12 h-12 rounded-full bg-lime-800"></div>
+                     <h2 class="text-2xl">Year-end Wrap Up Assignment</h2>
+                  </div>
+                  <ul class="md:flex gap-x-3">
+                     <li>
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
+                           </svg>
+                        </a>
+                     </li>
+                     <li class="flex md:flex-none">
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                           </svg>
+                        </a>
+                        23
+                     </li>
+                     <li class="flex md:flex-none">
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                           </svg>
+                        </a>
+                        3
+                     </li>
+                     <li class="flex sm:text-sm">
+                        <a href="#">
+                           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                           </svg>
+                        </a>
+                        Due: Dec 27, 2022
+                     </li>
+                  </ul>
+               </header>
+               <div>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis inventore praesentium ratione fuga eos aliquid repudiandae cupiditate vero id dolores, odit libero qui itaque ut et deserunt quaerat quibusdam saepe.</p>
+               </div>
+               <div class="flex mt-2">
+                  <a href="#">
+                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                     </svg>
+                  </a>
+                  <p class="ml-2">13 comments</p>
+               </div>
+               <div class="h-1.5 rounded bg-slate-200 mt-5">
+                  <div class="h-1.5 rounded bg-lime-700 w-6/12"></div>
+               </div>
+            </section>
+         </div>
+         <h3 class="text-center mt-12">your recent messages</h3>
+         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-2 border-t-2 border-slate-500 pt-10">
+            <section class="rounded border-2 border-lime-900 p-4 shadow-lg shadow-amber-600/30">
+               <div class="flex items-center">
+                  <a href="#">
+                     <svg class="w-6 h-6 ml-2" fill="none" stroke="green" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"></path>
+                     </svg>
+                  </a>
+                  <a href="#">
+                     <svg class="w-6 h-6 mx-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
+                     </svg>
+                  </a>
+                  <a href="#">
+                     <svg class="w-6 h-6 mb-2" fill="none" stroke="red" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                     </svg>
+                  </a>
+               </div>
+               <header class="border-b-2 border-slate-400 pb-2 mb-4">
+                  <div class="flex items-center mb-4">
+                     <div class="mr-2 w-12 h-12 rounded-full bg-amber-500">
+                        <a href="#">
+                           <p class="text-amber-200 pl-3 pt-3">M.R</p>
+                        </a>
+                     </div>
+                     <a href="#" class="flex items-center">
+                        <h2 class="text-xl">Mitch Rutherford, </h2>
+                        <p class="text-slate-500 pl-3">HR</p>
+                     </a>
+                  </div>
+                  <div>
+                     <p>date: Jan 28, 2022</p>
+                  </div>
+                  <div>
+                     <p>Subject: Year-end Wrap Up Low-down</p>
+                  </div>
+               </header>
+               <div>
+                  <div class="border-2 border-lime-700 rounded-3xl p-3 w-9/12">
+                     <p>Morning Claire, I have sent an email for an emergency meeting this afternoon, let me know if you can attend</p>
+                  </div>
+                  <div class="border-2 border-lime-700 rounded-3xl p-3 w-9/12 mt-2">
+                     <p>Apologies for the last minute rush of this meeting</p>
+                  </div>
+                  <div class="border-2 border-amber-700 rounded-3xl p-3 w-9/12 mt-4 float-right">
+                     <p>I will be there! I may be a few ...</p>
+                  </div>
+               </div>
+               <div class="border-2 border-lime-700 rounded-3xl p-2 mt-32 cursor-text">
+                  <p class="text-slate-300 pl-2">message</p>
+               </div>
+            </section>
+            <section class="rounded border-2 border-lime-900 p-4 shadow-lg shadow-amber-600/30">
+               <div class="flex items-center">
+                  <a href="#">
+                     <svg class="w-6 h-6 ml-2" fill="none" stroke="green" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"></path>
+                     </svg>
+                  </a>
+                  <a href="#">
+                     <svg class="w-6 h-6 mx-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
+                     </svg>
+                  </a>
+                  <a href="#">
+                     <svg class="w-6 h-6 mb-2" fill="none" stroke="red" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                     </svg>
+                  </a>
+               </div>
+               <header class="border-b-2 border-slate-400 pb-2 mb-4">
+                  <div class="flex items-center mb-4">
+                     <div class="mr-2 w-12 h-12 rounded-full bg-amber-500">
+                        <a href="#">
+                           <p class="text-amber-200 pl-3 pt-3">P.H</p>
+                        </a>
+                     </div>
+                     <a href="#" class="flex items-center">
+                        <h2 class="text-xl">Phil Hathaway, </h2>
+                        <p class="text-slate-500 pl-3">MARKETING</p>
+                     </a>
+                  </div>
+                  <div>
+                     <p>date: Jun 15, 2022</p>
+                  </div>
+                  <div>
+                     <p>Subject: Web Design Follow Up/ Progress Report</p>
+                  </div>
+               </header>
+               <div>
+                  <div class="border-2 border-lime-700 rounded-3xl p-3 w-9/12">
+                     <p>I think the web design should be a little more coherent with the rest of the sites that are already up and running! </p>
+                  </div>
+                  <div class="border-2 border-amber-700 rounded-3xl p-3 w-9/12 mt-4 float-right">
+                     <p>Yes, for sure! I'll be sure to incorporate more colours in coordination with the other sites</p>
+                  </div>
+                  <div class="border-2 border-amber-700 rounded-3xl p-3 w-9/12 mt-2 float-right">
+                     <p>Let me know what the ...</p>
+                  </div>
+               </div>
+               <div class="border-2 border-lime-700 rounded-3xl p-2 mt-52 cursor-text">
+                  <p class="text-slate-300 pl-2">message</p>
+               </div>
+            </section>
+            <section class="rounded border-2 border-lime-900 p-4 shadow-lg shadow-amber-600/30">
+               <div class="flex items-center ">
+                  <a href="#">
+                     <svg class="w-6 h-6 ml-2" fill="none" stroke="green" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9"></path>
+                     </svg>
+                  </a>
+                  <a href="#">
+                     <svg class="w-6 h-6 mx-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
+                     </svg>
+                  </a>
+                  <a href="#">
+                     <svg class="w-6 h-6 mb-2" fill="none" stroke="red" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                     </svg>
+                  </a>
+               </div>
+               <header class="border-b-2 border-slate-400 pb-2 mb-4">
+                  <div class="flex items-center mb-4">
+                     <div class="mr-2 w-12 h-12 rounded-full bg-amber-500">
+                        <a href="#">
+                           <p class="text-amber-200 pl-3 pt-3">J.S</p>
+                        </a>
+                     </div>
+                     <a href="#" class="flex items-center">
+                        <h2 class="text-xl">Jake Sutton, </h2>
+                        <p class="text-slate-500 pl-3">FINANCE</p>
+                     </a>
+                  </div>
+                  <div>
+                     <p>date: Nov 2, 2022</p>
+                  </div>
+                  <div>
+                     <p>Subject: Payroll Information</p>
+                  </div>
+               </header>
+               <div>
+                  <div class="border-2 border-lime-700 rounded-3xl p-3 w-9/12">
+                     <p>The information about payroll has been sent out last week, please follow the instructions in the email you're cc'd in :) </p>
+                  </div>
+                  <div class="border-2 border-amber-700 rounded-3xl p-3 w-9/12 mt-4 float-right">
+                     <p>Oh, I must have missed that ...</p>
+                  </div>
+               </div>
+               <div class="border-2 border-lime-700 rounded-3xl p-2 mt-52 cursor-text">
+                  <p class="text-slate-300 pl-2">message</p>
+               </div>
+            </section>
+         </div>
+      </div>
+      <!-- end of container div -->
+   </body>
+</html>
